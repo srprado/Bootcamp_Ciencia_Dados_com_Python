@@ -21,3 +21,7 @@ create table reservas(
     dataReserva DATE,
     status varchar(255) default 'pendente' comment 'Status da reserva (confirmada, pendente, cancelada etc.)'
 );
+
+select * from usuarios;
+select * from destinos;
+select * from reservas;
