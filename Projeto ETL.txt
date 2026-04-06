@@ -1,0 +1,20 @@
+https://developers.openai.com/api/reference/python/resources/chat/subresources/completions/methods/create
+
+Explorando IA Generativa em um Pipeline de ETL com Python
+Extract -> Pandas e COnsumo de API REST
+Transform -> Integração com a API do ChatGPT(OpenAI)/IA Generativa / Prompts
+Load -> Consumo de API REST(PUT)
+
+#DESAFIO: Crie seu próprio ETL - reimagine um novo pipeline de ETL a sua escolha
+Contexto: 
+criar mensagens de marketing personalizadas para cada cliente do Santander
+
+Alternativa 1 (Mais Simples): Crie uma Lista no Python
+Ao invés de tentar baixar os dados da API, você pode criar uma lista de usuários (dados fictícios) diretamente no seu código. Assim, você pula a dependência da API e foca na parte legal: usar a IA para gerar mensagens.
+Alternativa 2 (Arquivo CSV Completo):
+Ao invés de um CSV só com IDs, crie um arquivo que já tenha as colunas Nome, Conta e Cartão. Seu código Python vai ler esse arquivo (Extração), gerar as mensagens (Transformação) e salvar em um novo arquivo (Carregamento).
+
+1 - criar um CSV com dados como id, nome, conta e numero do cartão -> pegar um bloco de notas e salvar com a extensão .csv
+2 - com Python extraia os dados desse arquivo CSV para visualização
+3 - na transformação da para enriquecer os dados 
+

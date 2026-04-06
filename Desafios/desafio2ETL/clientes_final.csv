@@ -1,0 +1,7 @@
+id,nome,idade,agencia,conta,cartao,mensagem_marketing,status_dados,tipo_mensagem
+1,João Silva,35.0,1.0,12345-6,1111 2222 3333 4444,"Olá João Silva, temos ótimas condições de crédito e investimento para sua fase da vida.",ok,marketing
+2,Maria Souza,40.0,1.0,123456,1111222233334444,"Olá Maria Souza, temos ótimas condições de crédito e investimento para sua fase da vida.",ok,marketing
+3,Carlos   Pereira,,2.0,98765-4,4444 3333 2222 1111,"Olá Carlos   Pereira, precisamos que você atualize os seguintes dados: idade. Isso ajuda a manter sua conta segura e atualizada.",idade,atualizacao
+4,Ana Clara,,3.0,11111-1,1234 5678,"Olá Ana Clara, precisamos que você atualize os seguintes dados: idade. Isso ajuda a manter sua conta segura e atualizada.",idade,atualizacao
+5,Pedro,28.0,,22222-2,9999 8888 7777 6666,"Olá Pedro, precisamos que você atualize os seguintes dados: agencia. Isso ajuda a manter sua conta segura e atualizada.",agencia,atualizacao
+6,João Silva,35.0,1.0,12345-6,1111 2222 3333 4444,"Olá João Silva, temos ótimas condições de crédito e investimento para sua fase da vida.",ok,marketing
